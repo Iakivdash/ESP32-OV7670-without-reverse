@@ -30,8 +30,8 @@ const int TFT_CS = 5;
 //DIN <- MOSI 23
 //CLK <- SCK 18
 
-#define ssid       "WLAN14G1_2G"  // Set your ssid
-#define password   "Hrusha_38_pifuK" // Set your password
+#define ssid       ""  // Set your ssid
+#define password   "" // Set your password
 
 //Adafruit_ST7735 tft = Adafruit_ST7735(TFT_CS,  TFT_DC, 0/*no reset*/);
 OV7670 *camera;
